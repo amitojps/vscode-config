@@ -1,0 +1,37 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+e",
+    "command": "macros.next-error"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-extension.vim_cmd+d",
+    "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.showDefinitionPreviewHover"
+  },
+  {
+    "key": "j k",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "j j",
+    "command": "type",
+    "args": { "text": "j" },
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "escape",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  }
+]

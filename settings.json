@@ -1,0 +1,35 @@
+{
+  "window.zoomLevel": 1,
+  "extensions.ignoreRecommendations": false,
+  "editor.tabSize": 2,
+  "[nix]": {},
+  "macros": {
+    "next-error": [
+      "workbench.action.problems.focus",
+      "cursorDown",
+      "list.select",
+      "editor.action.showHover"
+    ]
+  },
+  "workbench.activityBar.visible": true,
+
+  "editor.multiCursorModifier": "alt",
+  "editor.minimap.enabled": false,
+  "idris.showOutputWhenTypechecking": true,
+  "workbench.editor.showTabs": true,
+  "workbench.colorTheme": "Monokai",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "vim.camelCaseMotion.enable": true,
+  "editor.lineNumbers": "relative",
+  "vim.insertModeKeyBindings": [
+
+  ],
+  "vim.easymotion": true,
+  "vim.statusBarColors.easymotionmode": "",
+  "vim.leader": "\\",
+  "vim.easymotionDimBackground": false,
+  "vim.easymotionMarkerBackgroundColor": "rgba(255, 0, 0, 1)",
+  "vim.easymotionMarkerWidthPerChar": 6,
+  "haskell.hlintOn": false
+}

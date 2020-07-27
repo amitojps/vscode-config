@@ -1,0 +1,14 @@
+-- this is the output from running
+-- code --list-extensions --show-versions 
+
+Compulim.indent4to2@0.1.2
+alanz.vscode-hie-server@0.1.1
+BIGMOON.language-yesod@0.6.0
+eg2.tslint@1.0.44
+geddski.macros@1.2.1
+justusadam.language-haskell@3.3.0
+martinring.nix@0.0.1
+shd101wyy.markdown-preview-enhanced@0.5.12
+vscodevim.vim@1.16.0
+yzhang.markdown-all-in-one@3.2.0
+zjhmale.Idris@0.9.8
