@@ -1,5 +1,8 @@
--- this is the output from running
--- code --list-extensions --show-versions 
+# this is the output from running
+# code --list-extensions --show-versions 
+# the extensions can be installed with 
+# code --install-extension
+# , or manually
 
 Compulim.indent4to2@0.1.2
 alanz.vscode-hie-server@0.1.1
